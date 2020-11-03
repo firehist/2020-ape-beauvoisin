@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html style="margin: 0; padding: 0;">
+<head>
+<meta charset="UTF-8">
+<title>2020 - APE Maternelle Beauvoisin</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./generator.css">
+</head>
+
+<body class="d-flex flex-column">
+<div class="header">
+  <img class="header__logo" src="./assets/logo-ape-beauvoisin-2020.jpg" />
+  <div class="header__title">2020 - APE Maternelle Beauvoisin</div>
+</div>
+<div id="signature" class="block d-flex flex-grow-1 flex-column">
+  <div class="block d-flex flex-row">
+    <div class="d-flex flex-column justify-content-center">
+      <button id="btn-copy" class="btn btn-primary" type="button">Copy signature</button><br />
+      <button id="btn-copy-html" class="btn btn-primary" type="button">Copy signature as HTML</button>
+    </div>
+    <div class="block d-flex flex-grow-1 flex-column">
+      <div id="tab-content" class="block__content d-flex flex-grow-1 pt-3"></div>
+    </div>
+  </div>
+</div>
+<input id="input-hidden" data-index="0" style="position: absolute; top: 0; left: -200px; width: 10px;"></textarea>
+
+<div class="toast toast-clicked" data-delay="2000">
+  <div class="toast-body">
+    Signature copied in clipboard 🚀
+  </div>
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../_utils/consoleElium.js"></script>
+<script src="./generator.js"></script>
+
+</html>
