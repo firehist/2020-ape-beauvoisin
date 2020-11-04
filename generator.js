@@ -47,6 +47,9 @@ const signature = () => {
           <img width="60px" height="60px" src="${url}/assets/avatar_celine.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
+          <img width="60px" height="60px" src="${url}/assets/avatar_emilie.png" />
+        </td>
+        <td style="padding: 0 5px;" valign="top" align="center" width="60px">
           <img width="60px" height="60px" src="${url}/assets/avatar_lauranne.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
@@ -75,12 +78,17 @@ const signature = () => {
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
           <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
+            Emilie
+          </div>
+        </td>
+        <td style="padding: 0 20px;" valign="top" align="center" width="90px">
+          <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
             Lauranne
           </div>
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
           <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
-            Magalie
+            Magali
           </div>
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
@@ -105,11 +113,8 @@ const signature = () => {
 
 const app = () => {
     const $inputHidden = $('#input-hidden')
-    const $signature = $('#signature')
-    const $signatureTabs = $('#signature .block__tab label')
     const $tabContent = $('#tab-content')
     const $btnCopy = $('#btn-copy')
-    const $btnCopyHtml = $('#btn-copy-html')
 
     let currentSignature = signature()
     $inputHidden.val(currentSignature)
@@ -118,13 +123,6 @@ const app = () => {
     // Handle copy button
     $btnCopy.click(() => {
         selectElementContents($tabContent[0].getElementsByTagName('table')[0])
-        $('.toast-clicked').toast('show')
-    })
-
-    // Handle copy button
-    $btnCopyHtml.click(() => {
-        $inputHidden[0].select()
-        document.execCommand("copy")
         $('.toast-clicked').toast('show')
     })
 
