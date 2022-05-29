@@ -50,6 +50,9 @@ const signature = () => {
           <img width="60px" height="60px" src="${url}/assets/avatar_celine.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
+          <img width="60px" height="60px" src="${url}/assets/avatar_cindy.png" />
+        </td>
+        <td style="padding: 0 5px;" valign="top" align="center" width="60px">
           <img width="60px" height="60px" src="${url}/assets/avatar_emilie.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
@@ -66,9 +69,6 @@ const signature = () => {
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
           <img width="60px" height="60px" src="${url}/assets/avatar_vanessa.png" />
-        </td>
-        <td style="padding: 0 5px;" valign="top" align="center" width="60px">
-          <img width="60px" height="60px" src="${url}/assets/avatar_cindy.png" />
         </td>
       </tr>
       <tr>
