@@ -84,6 +84,11 @@ const signature = () => {
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
           <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
+            Cindy
+          </div>
+        </td>
+        <td style="padding: 0 20px;" valign="top" align="center" width="90px">
+          <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
             Emilie
           </div>
         </td>
@@ -110,11 +115,6 @@ const signature = () => {
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
           <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
             Vanessa
-          </div>
-        </td>
-        <td style="padding: 0 20px;" valign="top" align="center" width="90px">
-          <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
-            Cindy
           </div>
         </td>
       </tr>
