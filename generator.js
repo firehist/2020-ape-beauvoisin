@@ -79,17 +79,12 @@ const signature = () => {
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
           <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
-            Céline
-          </div>
-        </td>
-        <td style="padding: 0 20px;" valign="top" align="center" width="90px">
-          <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
             Cindy
           </div>
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
           <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
-            Emilie
+            Elisabeth
           </div>
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
@@ -99,7 +94,12 @@ const signature = () => {
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
           <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
-            Magali
+            Magalie
+          </div>
+        </td>
+        <td style="padding: 0 20px;" valign="top" align="center" width="90px">
+          <div style="margin-block-start: 0px; font-weight:bold; font-size:16px; color:#267CD9; font-family:Georgia;">
+          Nicolas
           </div>
         </td>
         <td style="padding: 0 20px;" valign="top" align="center" width="90px">
