@@ -47,13 +47,10 @@ const signature = () => {
           <img width="60px" height="60px" src="${url}/assets/avatar_aurelie.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
-          <img width="60px" height="60px" src="${url}/assets/avatar_celine.png" />
-        </td>
-        <td style="padding: 0 5px;" valign="top" align="center" width="60px">
           <img width="60px" height="60px" src="${url}/assets/avatar_cindy.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
-          <img width="60px" height="60px" src="${url}/assets/avatar_emilie.png" />
+          <img width="60px" height="60px" src="${url}/assets/avatar_elisabeth.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
           <img width="60px" height="60px" src="${url}/assets/avatar_lauranne.png" />
@@ -63,6 +60,9 @@ const signature = () => {
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
           <img width="60px" height="60px" src="${url}/assets/avatar_nicolas.png" />
+        </td>
+        <td style="padding: 0 5px;" valign="top" align="center" width="60px">
+          <img width="60px" height="60px" src="${url}/assets/avatar_nicolas_.png" />
         </td>
         <td style="padding: 0 5px;" valign="top" align="center" width="60px">
           <img width="60px" height="60px" src="${url}/assets/avatar_perrine.png" />
